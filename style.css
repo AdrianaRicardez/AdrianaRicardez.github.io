@@ -2,14 +2,15 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  color: #923304;
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
-  
+  /*color:#cf5619;*/
 }
+
 
 /* Estilos generales */
 
@@ -32,7 +33,7 @@ h2{
 
 .seccion-oscura {
   color: white;
-  background-color: #39d3be;
+  background-color: #f0ab8d;
 }
 
 .seccion-clara {
@@ -58,20 +59,20 @@ h2{
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
-  background-color:#de30cd ;
-  border: darkblue;
+  background-color:rgb(205, 162, 162) ;
+  border: rgb(96, 10, 51);
 
 }
 
 
 .btn-info :hover{
-background-color: rgb(0, 47, 255);
+background-color: rgb(128, 37, 89);
 }
 
 
 
 .texto-negro {
-  color: black;
+  color: rgb(205, 162, 162);
 }
 
 .texto-blanco {
@@ -143,7 +144,7 @@ background-color: rgb(0, 47, 255);
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #de30cd;
+  color: #ffebbb;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -163,7 +164,7 @@ background-color: rgb(0, 47, 255);
 
 .badge {
   margin: 5px;
-  background-color: blueviolet;
+  background-color: rgb(233, 167, 167);
 }
 
 /* Proyectos */
@@ -285,13 +286,14 @@ background-color: rgb(0, 47, 255);
   max-width: 1100px;
   min-height: 200px;
   padding: 20px;
+  color: rgb(205, 162, 162);
 }
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(172, 108, 166);
+  background-color:  #ffebbb;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white;
+  box-shadow: 0px 1px 4px 1px rgb(205, 162, 162);
 }
 
 .contacto .row {
@@ -301,12 +303,12 @@ background-color: rgb(0, 47, 255);
 }
 
 .contacto .descripcion {
-  color: white;
+  color: rgb(205, 162, 162);
   font-size: 1.2rem;
 }
 
 .contacto button {
-  color: white;
+  color:rgb(205, 162, 162);
   font-weight: bold;
   background-color: transparent;
   border: 2px solid white;
@@ -317,12 +319,12 @@ background-color: rgb(0, 47, 255);
 }
 
 .contacto button:hover {
-  background-color: white;
+  background-color:rgb(205, 162, 162);
   color: black;
 }
 
 .contacto button i {
-  color: white;
+  color:rgb(205, 162, 162);
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
